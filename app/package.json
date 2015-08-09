@@ -1,0 +1,16 @@
+{
+  "name": "basic-grunt-build",
+  "version": "0.0.1",
+  "author": "Tamas Sallai",
+  "description": "Basic Grunt build",
+  "dependencies": {
+    "grunt-contrib-concat":"0.5.1",
+    "grunt-contrib-uglify":"0.9.1",
+    "grunt-contrib-cssmin":"0.13.0",
+    "grunt-filerev":"2.3.1",
+    "grunt-usemin":"3.0.0",
+    "grunt-contrib-copy":"0.8.0",
+    "grunt-contrib-clean":"0.6.0",
+    "grunt-filerev-replace":"0.1.4"
+  }
+}
