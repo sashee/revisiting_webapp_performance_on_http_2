@@ -36,9 +36,9 @@ at port 444, as Apache always gzips the content in the current config.
 
 The following build types are currently supported:
 
-* asis: There is no concatenation and minification whatsoever, the files are served as as
+* asis: There is no concatenation and minification whatsoever, the files are served as is
 * concat: The files are concatenated only
-* concat_minify: The files are concatenated and minified, but not mangled (the variables are not shortened)
+* concat_minify: The files are concatenated and minified, but not mangled (the variable names are not shortened)
 * concat_minify_mangle: Full concatenation, minification and mangling are performed
 * minify: The files are minified separately, without concatenation
 * minify_mangle: The files are minified and mangled separately
