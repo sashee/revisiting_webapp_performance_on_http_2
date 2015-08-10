@@ -12,13 +12,13 @@ You will need Docker installed, then build the image:
 
 It will take a while. After the build is complete, start it with:
 
-* _docker run -p 443:443 -p 444:444 <image id>_
+* _docker run -p 443:443 -p 444:444 \<image id\>_
 
 Then with a browser, access the files and measure the differences.
 
 The URL structure is the following:
 
-* https://<ip>:<443|444>/<gzip/nogzip>/<type>
+* https://\<ip\>:\<443|444\>/\<gzip/nogzip\>/\<type\>
 
 where type is one of:
 
