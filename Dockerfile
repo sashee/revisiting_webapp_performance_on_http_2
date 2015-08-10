@@ -53,7 +53,7 @@ RUN chmod +x /run.sh
 
 ## H2O config
 
-ADD h2o.conf /etc/h2o/h2o.conf
+ADD h2o/h2o.conf /etc/h2o/h2o.conf
 
 ## Install build prerequisities
 
