@@ -1,4 +1,4 @@
-# revisiting_webapp_performance_on_http_2
+# Revisiting webapp performance on HTTP/2
 
 This is a comparison project on HTTP/2 and HTTP/1.1 in different scenarios. The goal is to quantify
 the different techniques on webapp performance on each protocols and identify the best practices with
@@ -14,7 +14,7 @@ It will take a while. After the build is complete, start it with:
 
 * _docker run -p 443:443 -p 444:444 \<image id\>_
 
-Then with a browser, access the files and measure the differences.
+Then with a browser, access the files and measure the differences. You should use a remote server as performance testing on localhost might be misleading.
 
 The URL structure is the following:
 
