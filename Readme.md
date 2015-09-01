@@ -4,6 +4,8 @@ This is a comparison project on HTTP/2 and HTTP/1.1 in different scenarios. The 
 the different techniques on webapp performance on each protocols and identify the best practices with
 the coming standard.
 
+For more info, check out the relevant blog post: https://advancedweb.hu/2015/09/01/revisiting_webapp_performance_on_http_2/
+
 ## Usage
 
 You will need Docker installed, then build the image:
